@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import React from "react";
 import axios from "axios";
+import FileDisplay from "./FileDisplay";
 
 const FileUpload = () => {
   const [image, setImage] = useState({});
@@ -114,6 +115,7 @@ const FileUpload = () => {
                   Upload
                 </button>
               </div>
+              <FileDisplay />
             </div>
           </form>
         </div>

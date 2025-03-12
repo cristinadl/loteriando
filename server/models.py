@@ -1,4 +1,3 @@
-#C:\flask_dev\flaskreact\models.py
 from flask_sqlalchemy import SQLAlchemy
    
 db = SQLAlchemy()

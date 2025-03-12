@@ -32,7 +32,7 @@ const FileDisplay = () => {
               <h4 className="card-title fw-bold"> Images List </h4>
             </div>
             <div className="card-body">
-              <div className="row">
+              <ul className="row">
                 {title.length > 0 ? (
                   title.map((image) => (
                     <div className="col-lg-3" key={image.id}>
@@ -48,7 +48,7 @@ const FileDisplay = () => {
                 ) : (
                   <h6 className="text-danger text-center">No Image Found </h6>
                 )}
-              </div>
+              </ul>
             </div>
           </div>
         </div>
